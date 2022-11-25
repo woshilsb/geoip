@@ -12,6 +12,9 @@ on:
       - "LICENSE"
       - "README.md"
       - ".github/dependabot.yml"
+env:
+  TZ: Asia/Shanghai
+
 jobs:
   build:
     name: Build
